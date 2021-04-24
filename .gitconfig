@@ -1,0 +1,7 @@
+[user]
+	name = Berkay Dinç
+	email = berkayydinc@gmail.com
+[core]
+	editor = nvim
+[credential]
+	helper = store
