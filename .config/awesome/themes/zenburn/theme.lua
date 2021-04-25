@@ -12,7 +12,7 @@ theme.wallpaper = themes_path .. "zenburn/zenburn-background.png"
 -- }}}
 
 -- {{{ Styles
-theme.font      = "Cascadia Code 9"
+theme.font      = "Cascadia Code 8"
 
 -- {{{ Colors
 theme.fg_normal  = "#DCDCCC"
@@ -26,7 +26,7 @@ theme.bg_systray = theme.bg_normal
 
 -- {{{ Borders
 theme.useless_gap   = dpi(0)
-theme.border_width  = dpi(2)
+theme.border_width  = dpi(1)
 theme.border_normal = "#3F3F3F"
 theme.border_focus  = "#6F6F6F"
 theme.border_marked = "#CC9393"
