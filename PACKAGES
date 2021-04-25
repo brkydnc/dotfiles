@@ -11,7 +11,9 @@ alacritty
 tmux
 firefox-developer-edition
 ttf-cascadia-code
+noto-fonts-cjk
 noto-fonts-emoji
+noto-fonts
 pulseaudio-alsa
 pavucontrol
 xorg-server
