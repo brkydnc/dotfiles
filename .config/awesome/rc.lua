@@ -505,6 +505,13 @@ client.connect_signal("manage", function (c)
     -- Set the windows at the slave,
     -- i.e. put it at the end of others instead of setting it master.
     -- if not awesome.startup then awful.client.setslave(c) end
+    if awful.layout.get(c.screen) == awful.layout.suit.floating then
+      local place = awful.placement.centered
+        + awful.placement.no_overlap
+        +awful.placement.no_offscreen
+
+      place(c)
+    end
 
     if awesome.startup
       and not c.size_hints.user_position
